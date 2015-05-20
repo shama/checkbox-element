@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+* {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 0;
+}
+body {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  color: #212121;
+  background-color: #e3f2fd;
+}
+
+.container {
+  text-align: center;
+}
+
+span[role="checkbox"] {
+  padding: .5em 0;
+  display: block;
+}
+
+.checkbox {
+  display: block;
+  zoom: 1;
+  overflow: auto;
+}
+.checkbox button {
+  border: 1px solid #212121;
+  background-color: #fff;
+  width: 16px;
+  height: 16px;
+  font-size: .8em;
+  padding: 0;
+  margin: 0;
+}
+.checkbox label, .custom label {
+  padding-left: .5em;
+}
+
+.custom button {
+  background-color: #FCE4EC;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #880E4F;
+  transition-duration: .5s;
+}
+.custom.checked button {
+  background-color: #E91E63;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
