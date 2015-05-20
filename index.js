@@ -14,7 +14,7 @@ function CheckboxElement (el) {
   this.onclick = function CheckboxElement_onclick (e) {
     this.toggle()
   }.bind(this)
-  this.on('load', function (node) {
+  this.on('load', function CheckboxElement_onload (node) {
     node.setAttribute('role', 'checkbox')
   })
 }
