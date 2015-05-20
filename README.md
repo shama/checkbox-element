@@ -27,19 +27,10 @@ Creates a new checkbox element. `appendTo` is the parent DOM node to append to.
 Defaults to `document.body`.
 
 #### `checkbox.toggle()`
-Will hide or show checkbox.
+Will check or unchecked the checkbox.
 
-#### `checkbox.center(node)`
-Centers a DOM node passed to it.
-
-#### `checkbox.shown`
-`Boolean` whether the checkbox is shown.
-
-#### `checkbox.centerOnLoad`
-`Boolean` whether to automatically center the checkbox on load.
-
-#### `checkbox.checkbox`
-A `{}` containing properties for the child `checkbox` element.
+#### `checkbox.checked`
+`Boolean` whether the checkbox is checked.
 
 #### Events
 
